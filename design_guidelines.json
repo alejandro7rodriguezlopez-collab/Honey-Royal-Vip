@@ -1,0 +1,128 @@
+{
+  "identity": {
+    "name": "Honey Royal Vip - Modern Wellness",
+    "tone": "Clean, Energetic, Trustworthy, Direct",
+    "target_audience": "Adult men in Spain seeking natural performance enhancement",
+    "design_philosophy": "Modern Swiss-style wellness. High whitespace, bold typography, zero clutter. Not 'adult/luxury' style, but 'clinical/natural' style."
+  },
+  "typography": {
+    "font_family": {
+      "headings": "Outfit, sans-serif",
+      "body": "DM Sans, sans-serif"
+    },
+    "scale": {
+      "h1": "text-5xl md:text-7xl font-bold tracking-tight leading-[1.1]",
+      "h2": "text-3xl md:text-5xl font-bold tracking-tight",
+      "h3": "text-2xl md:text-3xl font-semibold",
+      "body_lg": "text-lg md:text-xl leading-relaxed text-zinc-600",
+      "body": "text-base leading-relaxed text-zinc-600",
+      "caption": "text-sm font-medium tracking-wide uppercase text-zinc-500"
+    },
+    "imports": [
+      "@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;500;700&family=Outfit:wght@400;600;800&display=swap');"
+    ]
+  },
+  "colors": {
+    "palette": {
+      "primary": "#F59E0B",
+      "primary_foreground": "#FFFFFF",
+      "secondary": "#FFF7ED",
+      "accent": "#18181B",
+      "background": "#FFFFFF",
+      "surface": "#FAFAFA",
+      "text_main": "#18181B",
+      "text_muted": "#52525B",
+      "border": "#E4E4E7",
+      "whatsapp": "#25D366",
+      "whatsapp_hover": "#1DA851"
+    },
+    "usage": {
+      "cta_primary": "bg-[#25D366] hover:bg-[#1DA851] text-white shadow-lg hover:shadow-xl transition-all duration-300",
+      "highlight_text": "text-[#F59E0B]",
+      "section_bg_alt": "bg-[#FAFAFA]"
+    }
+  },
+  "layout": {
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "spacing": {
+      "section_py": "py-20 md:py-32",
+      "element_gap": "gap-6 md:gap-12"
+    },
+    "grid_strategies": {
+      "benefits": "grid grid-cols-1 md:grid-cols-3 gap-8",
+      "pricing": "grid grid-cols-1 md:grid-cols-3 gap-8 items-start"
+    },
+    "border_radius": {
+      "cards": "rounded-2xl",
+      "buttons": "rounded-full"
+    }
+  },
+  "components": {
+    "buttons": {
+      "whatsapp_main": "flex items-center justify-center gap-3 px-8 py-4 text-lg font-bold rounded-full bg-[#25D366] text-white hover:bg-[#1DA851] transition-transform hover:scale-105 shadow-xl shadow-green-500/20",
+      "whatsapp_floating": "fixed bottom-6 right-6 z-50 flex items-center justify-center w-16 h-16 rounded-full bg-[#25D366] text-white shadow-2xl hover:scale-110 transition-all duration-300 animate-bounce-subtle"
+    },
+    "cards": {
+      "pricing": "relative p-8 bg-white border border-zinc-200 rounded-3xl hover:border-amber-400 hover:shadow-2xl transition-all duration-300 flex flex-col",
+      "pricing_featured": "relative p-8 bg-zinc-900 text-white border-zinc-900 rounded-3xl shadow-2xl scale-105 z-10 flex flex-col ring-4 ring-amber-500/20",
+      "benefit": "p-8 bg-zinc-50 rounded-2xl border border-transparent hover:border-amber-200 transition-colors"
+    }
+  },
+  "assets": {
+    "images": {
+      "hero_product": "https://customer-assets.emergentagent.com/job_198e467c-bffd-4893-b096-cff81493d8c6/artifacts/2zd63cp4_24072_800x799.jpg",
+      "product_sachet": "https://customer-assets.emergentagent.com/job_198e467c-bffd-4893-b096-cff81493d8c6/artifacts/6mlzu3ru_IMG-20251221-WA0000.jpg",
+      "product_group": "https://customer-assets.emergentagent.com/job_198e467c-bffd-4893-b096-cff81493d8c6/artifacts/4no1zx80_1764440203331.png",
+      "product_detail_1": "https://customer-assets.emergentagent.com/job_198e467c-bffd-4893-b096-cff81493d8c6/artifacts/asvhv1bf_1761330303236.png",
+      "product_detail_2": "https://customer-assets.emergentagent.com/job_198e467c-bffd-4893-b096-cff81493d8c6/artifacts/tqwry941_1761330325385.png",
+      "texture_honey": "https://images.unsplash.com/photo-1749558161823-2fdde6683202?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDR8MHwxfHNlYXJjaHwxfHxnb2xkZW4lMjBob25leSUyMHRleHR1cmUlMjBtYWNybyUyMGFic3RyYWN0fGVufDB8fHx8MTc3MTE1Nzk1M3ww&ixlib=rb-4.1.0&q=85"
+    },
+    "icons": "Use Lucide React icons (Zap, ShieldCheck, Clock, Truck, CheckCircle2, MessageCircle)"
+  },
+  "content_strategy": {
+    "whatsapp_number": "+34 635 11 75 98",
+    "whatsapp_message": "Hola, me gustaría pedir información sobre Honey Royal Vip.",
+    "pricing_tiers": [
+      {
+        "name": "Pack Inicial",
+        "quantity": "1 Caja (10 sobres)",
+        "price": "31,99€",
+        "savings": null,
+        "featured": false
+      },
+      {
+        "name": "Pack Ahorro",
+        "quantity": "2 Cajas (20 sobres)",
+        "price": "53,99€",
+        "savings": "Ahorra 15€",
+        "featured": true
+      },
+      {
+        "name": "Pack Experto",
+        "quantity": "3 Cajas (30 sobres)",
+        "price": "76,99€",
+        "savings": "Ahorra 25€",
+        "featured": false
+      }
+    ]
+  },
+  "instructions_to_main_agent": [
+    "1. SETUP: Install 'lucide-react' and 'framer-motion' if not present.",
+    "2. FONT: Add the Google Fonts import to index.css immediately.",
+    "3. HERO: Create a split hero. Left side: 'Potencia Natural, Placer Infinito'. Right side: The 'hero_product' image floating with a subtle drop shadow.",
+    "4. BENEFITS: Use a clean grid. Icons should be Amber/Gold color. Text black.",
+    "5. PRICING: This is the most important section. Make the '2 Cajas' card pop (scale 1.05, dark background or heavy border). All buttons must open WhatsApp.",
+    "6. FAQ: Use Shadcn Accordion. Questions: '¿Cómo se toma?', '¿Cuánto tarda el envío?', '¿Es discreto?'.",
+    "7. FOOTER: Simple. Copyright + Contact.",
+    "8. FLOATING CTA: Add a fixed WhatsApp button on the bottom right for mobile users.",
+    "9. ANIMATION: Use framer-motion for 'fade-in-up' effects on scroll. Do not over-animate.",
+    "10. DATA-TESTID: Add data-testid to all buttons (e.g., 'whatsapp-hero-btn', 'pricing-pack-1-btn')."
+  ],
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "Do not use gradients for backgrounds, keep it clean white/gray.",
+    "Use generous padding (py-24) between sections.",
+    "Ensure text contrast is high (Zinc-900 for headings).",
+    "Images must have alt tags.",
+    "Mobile responsiveness is priority #1."
+  ]
+}
